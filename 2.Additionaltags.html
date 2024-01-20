@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Additional tags</title>
+    <link rel="shortcut icon" href="/assets/android-chrome-192x192.png" type="image/x-icon">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>1.The Address element</h2>
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Vishal</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <hr>
+    <h2>2.The article element</h2>
+    <article>
+        <h3>Google Chrome</h3>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
+            browser today!</p>
+    </article>
+
+    <article>
+        <h3>Mozilla Firefox</h3>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular
+            web browser since January, 2018.</p>
+    </article>
+    <hr>
+    <h2>3.The caption element</h2>
+    <table>
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>4.The cite element</h2>
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    <hr>
+    <h2>5.The code element </h2>
+    <p>The HTML <code>button</code> tag defines a clickable button.</p>
+    <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+    <hr>
+    <h2>6.The figure and figcaption element</h2>
+    <figure>
+        <img src="./assets/trulli.jpg" alt="Trulli" style="width:50%">
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
+    <hr>
+    <h2>7.The kbd element</h2>
+    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+    <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+    <hr>
+    <h2>8.The legend element</h2>
+    <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+    </fieldset>
+    <hr>
+    <h2>9.The menu element</h2>
+    <menu>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </menu>
+    <hr>
+    <h2>10.The object element</h2>
+    <object data="./assets/trulli.jpg" width="300" height="200"></object>
+    <hr>
+    <h2>11.The progress element</h2>
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="32" max="100"> 32% </progress>
+    <hr>
+    <h2>12.The s element</h2>
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+    <hr>
+    <h2>13.The samp element</h2>
+    <p>Message from my computer:</p>
+    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+    <hr>
+    <h2>14.The strong element</h2>
+    <p>This text is normal.</p>
+    <p><strong>This text is important!</strong></p>
+    <hr>
+    <h2>15.The summary element</h2>
+    <details>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </details>
+    <hr>
+    <h2>16.The time Element</h2>
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+    <p>Close from <time>21:00</time> to <time>09:00</time> every weekday.</p>
+    <hr>
+    <h2>17.The u element</h2>
+    <p>This is some <u>mispeled</u> text.</p>
+    <hr>
+    <h2>18.The var element</h2>
+    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>,
+        where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+    <hr>
+    <h2>19.The wbr element</h2>
+    <p>Try to shrink the browser window, to view how the very long word in
+        the paragraph below will break:</p>
+    <p>This is a
+        veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>
+        longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.
+    </p>
+    <hr>
+    <h2>20.The marquee element</h2>
+    <marquee>OFFER!!! Buy 1 Get 1</marquee>
+    <hr>
+    <h2>marquee element with image</h2>
+    <marquee>
+        <img src="/assets/trulli.jpg" height="250px" width="300px" alt="trulli.jpg">
+    </marquee>
+    <hr>
+    <marquee direction="right">
+        <img src="/assets/trulli.jpg" height="250px" width="300px" alt="trulli.jpg">
+    </marquee>
+    <hr>
+    <h2>marquee element properties</h2>
+    <marquee scrolldelay="100">This is a slowly scrolling text.</marquee>
+    <hr>
+    <marquee scrollamount="10">Fast scrolling text!</marquee>
+    <hr>
+    <marquee behavior="alternate">Bouncing text!</marquee>
+    <hr>
+    <marquee direction="up">This text scrolls vertically up.</marquee>
+    <hr>
+    <marquee direction="down">This text scrolls vertically down.</marquee>
+    
+    
+
+</body>
+
+</html>
